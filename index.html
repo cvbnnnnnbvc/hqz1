@@ -21,22 +21,12 @@
     </div>
 
 
-    <div class="yinyue">
-        <img class="music" src="./33.png" alt="">
-        <audio autoplay="autoplay" id="audio" loop="loop">
-            <source src="./music1.mp3" type="audio/MP3">
-
-        </audio>
-
-    </div>
     <div class="row">
         <div class="centercolumn">
             <div class="card">
 
                 <h2 id="biaoti">浮生六记卷一</h2><br />
                 <hr />
-                <h4 id="qita">2021 年 1 月 29日</h4>
-
                 <p style="text-indent:2em">我生于乾降二十八年(1763年)的冬天ー月十ニ日。那时天下承平，国家安泰。我生于读书人家家在苏州城沧浪亭畔，上天待我何等厚爱。</p>
                 <p style="text-indent:2em">回想这一生，真如东坡先生所说“事如春梦了无痕”，如果不将之记下来，未免辜负了天赋幸运。</p>
                 <p style="text-indent:2em">
@@ -104,39 +94,4 @@
 
     </div>
    
-    
-    <br /><br />
-    <button class="bt" onclick="window.open('https://blog.csdn.net/weixin_51263734')">MY CSDN BLOG</button>
-
-    <script>
-    let mucics = document.getElementById('audio')
-    document.body.addEventListener('mousemove', function() {
-        setTimeout(() => {
-            mucics.play();
-        }, 2000);
-    }, false);
-    </script>
-    
-    <div class="footer">
-        <br />
-        <p>希望能成为有梦想 有温度的教技人</p><br />
-        <p>你好 我是风小风</p><br />
-        <a href="https://blog.csdn.net/weixin_51263734" target="_blank"><img class="someimg" src="./hou.png" alt="" width="30"></a>
-        <abbr title="QQ账号：2633386281"><img class="someimg" src="./qq.png" alt="" width="30"></abbr>
-        <abbr title="邮箱：fzx2003zhixue@163.com"><img class="someimg" src="./mail.png" alt="" width="30"></abbr>
-    </div>
-    <script>
-        //鼠标点击出现爱心特效  这部分特效是从一个网页搬过来的  觉得挺好看的
-        (function (window, document, undefined) {
-            var hearts = [];
-            window.requestAnimationFrame = (function () {
-                return window.requestAnimationFrame ||
-				window.webkitRequestAnimationFrame ||
-				window.mozRequestAnimationFrame ||
-				window.oRequestAnimationFrame ||
-				window.msRequestAnimationFrame ||
-				function (callback) {
-				    setTimeout(callback, 1000 / 60);
-				}
-           
     
